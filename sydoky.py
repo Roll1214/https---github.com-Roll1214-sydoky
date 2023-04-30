@@ -20,9 +20,9 @@ grid = [[3,6,2,     5,8,4,      9,1,7],
 #                 ar2.append(grid[j][count])
 #                 if len(ar2)%3==0:
 #                     count+=1
-#         print(ar2)                                ПРОВЕРКА 3X3 БЛОКА
+#         print(ar2)                                ПРОВЕРКА 3X3 БЛОКА(Fasle, если не встречаются одинаковые True, если встречаются)                       
 #         for i in ar2:
-#             if ar2.count(i)>1:
+#             if ar2.count(i)>1:                
 #                 print(True)
 #                 break
 #             else:
@@ -34,14 +34,14 @@ grid = [[3,6,2,     5,8,4,      9,1,7],
 
 # for lines in range(9): 
 #     for element in range(9):
-#         if grid[lines].count(grid[lines][element])>1: ГОТОВАЯ ПРОВЕРКА ДЛЯ СТРОК
+#         if grid[lines].count(grid[lines][element])>1: ГОТОВАЯ ПРОВЕРКА ДЛЯ СТРОК(Fasle, если не встречаются одинаковые True, если встречаются)
 #             print(True)
 
 
 # for k in range(9):
 #     ar = []
 #     for i in range(9):
-#         ar.append(grid[i][k])         ГОТОВАЯ ПРОВЕРКА ДЛЯ СТОЛБИКОВ
+#         ar.append(grid[i][k])         ГОТОВАЯ ПРОВЕРКА ДЛЯ СТОЛБИКОВ(Fasle, если не встречаются одинаковые True, если встречаются)
 #     for i in ar:                     
 #         if ar.count(i)>1:
 #             print(True)
